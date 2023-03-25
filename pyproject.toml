@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sql-project"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Lyfenko <114363730+Lyfenko@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "sql_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+faker = "^18.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
